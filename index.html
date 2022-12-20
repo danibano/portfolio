@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Dani's Portfolio</title>
 </head>
 
 <body>
-    <header>
+    <header class="top">
         <h1>Dani Bano</h1>
         <nav>
             <ul>
@@ -26,44 +27,51 @@
     </div>
 
     <main>
-        <section id="about-me">
-            <h2>About Me</h2>
+        <section id="about-me" class="flex-row">
+            <div class="divider">
+                <h2>About Me</h2>
+            </div>
             <p>Hello! I'm Dani. I am 23 years old.</p>
         </section>
        
-        <section id="work">
-            <h2>Work</h2>
+        <section id="work" class="flex-row">
+            <div class="divider">
+                <h2>Work</h2>
+            </div>
             
-            <figure> 
-                <!-- insert link here -->
-                <figcaption>
-                    <h3>Semantic HTML</h3>
-                    <p>HTML</p>
-                </figcaption>
-            </figure>
-           
-            <figure>
-                <!-- insert image here -->
-                <figcaption>
-                    <h3>Website</h3>
-                    <p>JavaScript</p>
-                </figcaption>
-            </figure>
-
-            <figure>
-               <!-- insert image here -->
-                <figcaption>
-                    <h3>Design</h3>
-                    <p>CSS</p>
-                </figcaption>
-            </figure>
-        
+            <div class="projects">
+                <figure> 
+                    <!-- insert link here -->
+                    <figcaption>
+                        <h3>Semantic HTML</h3>
+                        <p>HTML</p>
+                    </figcaption>
+                </figure>
+               
+                <figure>
+                    <!-- insert image here -->
+                    <figcaption>
+                        <h3>Website</h3>
+                        <p>JavaScript</p>
+                    </figcaption>
+                </figure>
+    
+                <figure>
+                   <!-- insert image here -->
+                    <figcaption>
+                        <h3>Design</h3>
+                        <p>CSS</p>
+                    </figcaption>
+                </figure>
+            </div>
         </section>
 
     </main>
 
-    <footer id="contact-me">
-        <h2> Contact Me </h2>
+    <footer id="contact-me" class="flex-row">
+        <div class="divider">
+            <h2> Contact Me </h2>
+        </div>
         <ul>
             <li>763-688-3994</li>
             <li> <a href="mailto:banovetz.danielle@gmail.com">banovetz.danielle@gmail.com</a> </li>

@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+h1 {
+    color: white;
+    background-color: #bc023d;
+    padding: 25px;
+}
+
+nav {
+    padding-right: 100px;
+}
+
+nav ul li {
+    display: inline;
+    color: #754421;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.hero {
+    height: 200px;
+    background-color: purple;
+}
+
+.flex-row {
+    display: flex;
+    padding: 12px;
+}
+
+.flex-row p, .projects, .flex-row ul {
+    flex: 5;
+}
+
+.divider {
+    flex: 1;
+    border-right: 3px solid black;
+    padding-right: 10px;
+    min-width: 150px;
+}
