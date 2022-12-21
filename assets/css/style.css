@@ -59,9 +59,9 @@ nav ul li {
 .hero {
     display: flex;
     height: 200px;
-    background-image: url(../css/images/cherry.jpg);
+    background-image: url(../css/images/rainbow.jpg);
     background-position: center;
-    text-align: left;
+    text-align: end;
     padding-top: 100px;
     padding-right: 30px;
     font-size: 40px;
@@ -110,7 +110,7 @@ section {
 
 .projects figure {
     width: 50%;
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 figure.first {
@@ -140,7 +140,8 @@ figcaption {
 }
       
 .content {
-    width: 75%;
+    width: 80%;
+    padding-left: 30px;
 }
     
 .content ul li {
@@ -155,14 +156,11 @@ figcaption {
   border-right: 5px solid black;
   text-align: right;
   padding-right: 10px;
+  text-shadow: 5px 5px 10px #e866ec;
 }
 
 .projects img:hover {
   box-shadow: inset 0px 0px 40px #e866ec, 0 0 40px #e866ec;
-}
-
-.connect {
-    align-items: center;
 }
 
 .bottom {
