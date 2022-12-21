@@ -9,8 +9,11 @@
 </head>
 
 <body>
-    <header class="top">
+    <header>
+        <div class="brand">
+        <div class="photo"></div>
         <h1>Dani Bano</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
@@ -22,26 +25,32 @@
     </header>
 
     <div class="hero">
-        <!-- change this to something legit -->
         <h2>Hip Hop Scholar</h2> 
     </div>
 
     <main>
-        <section id="about-me" class="flex-row">
-            <div class="divider">
+        <section id="about-me">
+            <div class="title">
                 <h2>About Me</h2>
             </div>
-            <p>Hello! I'm Dani. I am 23 years old.</p>
+        <div class="content dani">
+            <p>
+                Hello! I'm Dani. I am 23 years old, I was born and raised in Minnesota. I went to Saint Paul Conservatory for the Performing Artists
+                and graduated in 2017. I've been dancing for over 15 years, training in many styles including ballet, jazz, tap, modern, contemporary, and breaking.
+                I currently dance with BRKFST Dance Company, a collabrative breaking group. This past summer we had the chance to make a piece with the Minnesota Orchestra
+                to Beethovan's Grosse Fuge. 
+            </p>
+        </div>
         </section>
        
-        <section id="work" class="flex-row">
-            <div class="divider">
+        <section id="work">
+            <div class="title">
                 <h2>Work</h2>
             </div>
             
-            <div class="projects">
-                <figure> 
-                    <!-- insert link here -->
+            <div class="content projects">
+                <figure class="first"> 
+                    <div class="box"><img src="./assets/css/images/city.jpg" alt="Street" div class="cover"></div>
                     <figcaption>
                         <h3>Semantic HTML</h3>
                         <p>HTML</p>
@@ -49,7 +58,7 @@
                 </figure>
                
                 <figure>
-                    <!-- insert image here -->
+                    <div class="box"><img src="./assets/css/images/downtown.jpg" alt="Building" div class="cover"></div>
                     <figcaption>
                         <h3>Website</h3>
                         <p>JavaScript</p>
@@ -57,10 +66,26 @@
                 </figure>
     
                 <figure>
-                   <!-- insert image here -->
+                   <div class="box"><img src="./assets/css/images/river.jpg" alt="River" div class="cover"></div>
                     <figcaption>
                         <h3>Design</h3>
                         <p>CSS</p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <div class="box"><img src="./assets/css/images/food.jpg" alt="Food Vendors" div class="cover"></div>
+                    <figcaption>
+                        <h3>App</h3>
+                        <p>Coding</p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <div class="box"><img src="./assets/css/images/street.jpg" alt="Market" div class="cover"></div>
+                    <figcaption>
+                        <h3>Presentation</h3>
+                        <p>Powerpoint</p>
                     </figcaption>
                 </figure>
             </div>
@@ -68,17 +93,21 @@
 
     </main>
 
-    <footer id="contact-me" class="flex-row">
-        <div class="divider">
-            <h2> Contact Me </h2>
+    <footer class="bottom">
+    <section id="contact-me">
+        <div class="title">
+            <h2 class="mobile"> Contact Me </h2>
         </div>
+        <div class="content connect">
         <ul>
-            <li>763-688-3994</li>
-            <li> <a href="mailto:banovetz.danielle@gmail.com">banovetz.danielle@gmail.com</a> </li>
+            <li> <a href="tel:763-688-3994">763-688-3994</a></li>
+            <li> <a href="mailto:banovetz.danielle@gmail.com">banovetz.danielle@gmail.com</a></li>
             <li> <a href="https://github.com/danibano" target="_blank">GitHub</a></li>
             <li> <a href="https://www.linkedin.com/in/danielle-banovetz-612a33237/" target="_blank">LinkedIn</a></li>
         </ul>
-    </footer>
+    </div>
+    </section>
+</footer>
     
 </body>
 </html>
