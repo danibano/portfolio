@@ -99,6 +99,14 @@ section {
     display: flex;
     flex-wrap: wrap;
 }
+    
+.thumbnail {
+    transition: 0.5s;
+}
+
+.thumbnail:hover { 
+    transform: scale(1.1); 
+}
 
 .projects figure {
     width: 50%;
@@ -221,5 +229,5 @@ a:visited {
     .bottom {
         height: 120px;
     }
-    
+
   }
