@@ -13,9 +13,9 @@ I created this website to apply my HTML and CSS knowledge. I also want to use th
 
 ## Installation
 
-Just click on this link
+Just click on this link.
 
-(https://danibano.github.io/portfolio/ "Click Here")
+[Click Here](https://danibano.github.io/portfolio/)
 
 ## Usage
 
@@ -26,6 +26,6 @@ Just click on this link
 
 Thank you to Unsplash for the placeholder images!
 
-(https://danibano.github.io/portfolio/ "Unsplash")
+[Unsplash](https://unsplash.com/)
 
 ## License
