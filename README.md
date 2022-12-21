@@ -2,30 +2,30 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation? To apply my knowledge of HTML and CSS.
-- Why did you build this project? So that all the things I code are in one place.
-- What problem does it solve? 
-- What did you learn? Flexbox is not for the weak.
+I created this website to apply my HTML and CSS knowledge. I also want to use this as a page to showcase all the code I make throughout my time in the bootcamp. It'll be helpful to have all of my projects in one place so that I can always go back and refer to them when need be. I learned a lot about CSS and using Flexbox which felt a lot like trial and error. Despite the frustration it gave me, I learned how essential Flexbox is to making one interface look nice across all different screen sizes.
 
 ## Table of Contents (Optional)
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Credits](#credits)
 - [License](#license)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Just click on this link
+
+(https://danibano.github.io/portfolio/ "Click Here")
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+![Website](assets/css/images/screenshot%201.png)
+![Website](assets/css/images/screenshot%202.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+## Credits
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Thank you to Unsplash for the placeholder images!
+
+(https://danibano.github.io/portfolio/ "Unsplash")
+
 ## License
